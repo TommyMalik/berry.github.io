@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the juice.com</title>
+</head>
+<link rel="stylesheet" href="the juice.css">
+<body>
+    <header>
+        <nav>
+           <div class="logs">
+            <div class="logo"><img class="straw" src="cup-straw.svg" alt="">The Juicebox</div>
+            <div ><img class="burger" src="list.svg" alt=""></div>
+    
+           </div>
+                <ul class="ul1">
+                    <li><a class="menu" href="#">Home</a></li>
+                    <li><a class="menu" href="#">Collection</a></li>
+                    <li><a class="menu" href="#">Products</a></li>
+                </ul>
+                <ul class="ul2">
+                    <li class="searcha"><a href="#"><img class="srch" src="search-heart.svg" alt=""></a> <input class="bar" placeholder="Search here" type="Search"> <button>SEARCH</button> </li>
+                    <li><a href="#"><img src="cart3.svg" alt=""></a></li>
+                    <li><a href="#"><img src="person-fill.svg" alt=""></a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="img">
+            <div class="text">
+                <h2>the <br> JUICEBOX</h2>
+                <button><a  href="#body2">View Catalogue</a></button>
+            </div>
+        </div>
+    </main>
+
+
+        <H3 class="var">VARIATION:</H3>
+
+
+       <div id="body2" class="body2">
+       
+    
+        <div class="card">
+            <div class="img2"><img src="/cup-hot.svg" alt=""></div>
+            <div class="title">Cappuchino</div>
+            <div class="detail">Blend of black coffee with  <br> cream that just gives the spark you need to light up your day</div>
+            <p><b>$ 3 . 9</b></p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="card">
+            <div class="img2"><img src="/cup-hot.svg" alt=""></div>
+            <div class="title">Berry Juice</div>
+            <div class="detail">Blend of Berry <br> that Makes your body feel <br> alive and fresh again </div>
+            <p><b>$ 3 . 5</b></p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="card">
+            <div class="img2"><img src="/cup-hot.svg" alt=""></div>
+            <div class="title">Margaritas</div>
+            <div class="detail">The 18+ mix you folks <br> need to kickstart your day <br>or your night</div>
+            <p><b>$ 6 . 3</b></p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="card">
+            <div class="img2"><img src="/cup-hot.svg" alt=""></div>
+            <div class="title">Apple juice</div>
+            <div class="detail">Wouldnt be much of a juicebox if<br>Apple juice weren't in it <br>am i right?  </div>
+            <p><b>$ 3 . 9</b></p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="card">
+            <div class="img2"><img src="/cup-hot.svg" alt=""></div>
+            <div class="title">Chapman</div>
+            <div class="detail">Come on its Chapman<br>i know that you know that <br> everybody loves Chapman </div>
+            <p><b>$ 3 . 9</b></p>
+            <button>Buy Now</button>
+        </div>
+
+
+        <div class="card">
+            <div class="img2"><img src="/cup-hot.svg" alt=""></div>
+            <div class="title">Chapman</div>
+            <div class="detail">Come on its Chapman<br>i know that you know that everybody loves Chapman </div>
+            <p><b>$ 3 . 9</b></p>
+            <button>Buy Now</button>
+        </div>
+    
+    
+       </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var button=document.querySelector('.burger')
+var menu=document.querySelector('nav')
+var search=document.querySelector('.srch')
+var bar=document.querySelector('.bar')
+
+
+
+search.onclick=function(){
+    var bar=document.querySelector('.bar')
+    bar.classList.toggle("yours")
+
+
+
+}
+
+button.onclick=function(){
+    var menu= document.querySelector('nav')
+menu.classList.toggle("mine")
+}
+
+
+</script>
+
+</body>
+</html>
